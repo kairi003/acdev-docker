@@ -1,0 +1,10 @@
+version: '3'
+services:
+  pypy:
+    build: .
+    volumes:
+      - ./work:/home/user/work
+    user: runner
+    working_dir: /home/user/work
+    stdin_open: true
+    tty: true
