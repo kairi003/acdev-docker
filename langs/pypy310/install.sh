@@ -34,5 +34,7 @@ pypy3 -mpip install --break-system-packages \
     scikit-learn==1.3.0 \
     typing-extensions==4.4.0 \
     cppyy==2.4.1 \
-    git+https://github.com/not522/ac-library-python@58f324ec020d57191e7b9e4957b0c5feb5ed3aff \
-    ipython
+    git+https://github.com/not522/ac-library-python@58f324ec020d57191e7b9e4957b0c5feb5ed3aff
+
+# 開発用
+python3.11 -m pip install ipython

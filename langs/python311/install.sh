@@ -38,9 +38,11 @@ python3.11 -m pip install \
       lightgbm==3.3.1 \
       gmpy2==2.1.5 \
       numba==0.57.0 \
-      git+https://github.com/not522/ac-library-python@58f324ec020d57191e7b9e4957b0c5feb5ed3aff \
-      ipython
+      git+https://github.com/not522/ac-library-python@58f324ec020d57191e7b9e4957b0c5feb5ed3aff 
 
 # setuptoolsを更新しないとcppyyのインストールでエラーが出る場合がある
 python3.11 -m pip install -U setuptools==66.0.0
 python3.11 -m pip install cppyy==2.4.1
+
+# 開発用
+python3.11 -m pip install ipython
